@@ -3,6 +3,9 @@
 <div class="content-area">
     <main class="site-main">
         {{#post}}
+            <script>
+                window.POST_ID={{id}};
+            </script>
             <article class="{{post_class}}{{#unless feature_image}} no-image{{/unless}} single-post">
                 {{> post-header single=true number_date=true big_title=true}}
                 {{> post-media ratio="horizontal" with_caption=true}}
