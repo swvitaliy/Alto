@@ -3,7 +3,7 @@
     background-color: var(--dark-mode-bg-color);
 }
 
-.dark-mode a:not(.menu-item-link)
+.dark-mode a:not(.menu-item-link),
 .dark-mode h1,
 .dark-mode h2,
 .dark-mode h3,
