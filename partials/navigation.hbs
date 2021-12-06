@@ -1,6 +1,6 @@
 <ul class="nav-list u-plain-list">
     {{#foreach navigation}}
-        <li class="menu-item menu-item-{{slug}}{{#if current}} menu-item-current{{/if}}"><a class="menu-item-link"
+        <li class="menu-item menu-item-{{slug}}{{#if current}} menu-item-current{{/if}}"><a class="{{#unless current}}menu-item-link{{/unless}}"
                 href="{{url absolute="true"}}">{{label}}</a></li>
     {{/foreach}}
 </ul>
