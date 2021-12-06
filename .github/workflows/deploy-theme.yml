@@ -8,6 +8,7 @@ jobs:
     runs-on: ubuntu-18.04
     steps:
       - uses: actions/checkout@v2
+      - run: yarn
       - name: Deploy Ghost Theme
         uses: TryGhost/action-deploy-theme@v1.4.1
         with:
