@@ -24,10 +24,11 @@
 }
 
 .post-header {
-    margin-bottom: 30px;
-}
-.post-header:not(.container) {
     margin-bottom: 1em;
+}
+
+.post-header.container.medium {
+    margin-bottom: 30px;
 }
 
 .post-title {
