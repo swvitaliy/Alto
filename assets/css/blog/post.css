@@ -26,6 +26,9 @@
 .post-header {
     margin-bottom: 30px;
 }
+.post-header:not(.container) {
+    margin-bottom: 1em;
+}
 
 .post-title {
     margin-bottom: 10px;
