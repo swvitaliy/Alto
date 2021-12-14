@@ -14,7 +14,7 @@ Key differences and features:
 ## Usage
 
 1. Fork
-2. Fill Settings > Secrets > Repository secrets with 2 keys: 
+2. Fill Settings > Secrets > "Repository secrets" with 2 keys: 
     - `GHOST_ADMIN_API_URL`
     - `GHOST_ADMIN_API_KEY` 
 
