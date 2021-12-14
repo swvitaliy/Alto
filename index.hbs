@@ -3,11 +3,9 @@
 <div class="content-area">
     <main class="site-main">
         <div class="post-feed">
-            <!--{{#get "posts" include="tags,authors" filter="tags:-translation" limit=@config.posts_per_page page=pagination.page}}-->
-                {{#foreach posts}}
-                    {{> "loop"}}
-                {{/foreach}}
-            <!--{{/get}}-->
+            {{#foreach posts}}
+                {{> "loop"}}
+            {{/foreach}}
         </div>
         {{pagination}}
     </main>
