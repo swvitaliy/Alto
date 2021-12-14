@@ -9,6 +9,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - run: yarn
+      - run: yarn build
       - name: Deploy Ghost Theme
         uses: TryGhost/action-deploy-theme@v1.4.1
         with:
