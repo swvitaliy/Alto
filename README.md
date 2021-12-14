@@ -13,6 +13,8 @@ Key differences and features:
 
 ## Usage
 
+If you want to change the design or behavior of this theme, then follow these steps:
+
 1. Fork
 2. Fill Settings > Secrets > "Repository secrets" with 2 keys: 
     - `GHOST_ADMIN_API_URL`
