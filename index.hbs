@@ -2,13 +2,13 @@
 
 <div class="content-area">
     <main class="site-main">
-        {{#get "posts" include="tags,authors" filter="tags:-translation" limit=@config.posts_per_page page=pagination.page as |posts pagination| }}
+        {{#get "posts" include="tags,authors" filter="tags:-translation" limit=@config.posts_per_page page=pagination.page as |posts pages| }}
             <div class="post-feed">
                 {{#foreach posts}}
                     {{> "loop"}}
                 {{/foreach}}
             </div>
-            {{pagination}}
+            {{pagination total=pages.total}}
         {{/get}}
     </main>
 </div>
