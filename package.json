@@ -1,7 +1,7 @@
 {
     "name": "alto-lite",
     "description": "A Ghost theme",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "engines": {
         "ghost": ">=4.0.0",
         "ghost-api": "v4"
