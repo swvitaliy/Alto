@@ -162,7 +162,7 @@
 }
 
 .u-text-format ul li::before {
-    content: "";
+   /* content: ""; */
     top: 11px;
     left: -18px;
     width: 6px;
