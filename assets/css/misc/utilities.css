@@ -151,7 +151,7 @@
 .u-text-format ul li,
 .u-text-format ol li {
     position: relative;
-    margin: 15px 0;
+    /*margin: 15px 0;*/
     line-height: 1.65;
 }
 
@@ -172,6 +172,7 @@
 
 .u-text-format ol {
     counter-reset: numbered-list;
+    margin-top: 5px;
 }
 
 .u-text-format ol > li::before {
