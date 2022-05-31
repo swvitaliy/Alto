@@ -2,7 +2,7 @@
 
 Fork of [Alto](https://github.com/TryGhost/Alto) theme for a personal blog.
 
-Demo and author blog: [blog.swvit.ru](https://blog.swvit.ru/).
+Demo and author blog: [swvitaliy.site](https://swvitaliy.site/).
 
 Key differences and features:
 
