@@ -28,11 +28,11 @@
 }
 
 .post-title {
-    margin-bottom: 0px;
     font-size: 1.2rem;
 }
 
 .post-header.big-title .post-title {
+    margin-bottom: 10px;
     font-size: 16px;
     font-weight: 700;
     letter-spacing: -.5px;
