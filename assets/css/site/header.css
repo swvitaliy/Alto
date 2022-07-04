@@ -67,9 +67,9 @@
 
 .menu-item {
     margin: 0 15px;
-    font-size: 14px;
+    font-size: 15px;
     line-height: 1;
-    font-weight: 800;
+    font-weight: 500;
     transition: opacity 0.3s var(--animation-base);
     backface-visibility: hidden;
 }
