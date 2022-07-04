@@ -60,7 +60,7 @@
 .dark-mode .comment-container,
 .dark-mode .u-placeholder,
 .dark-mode pre,
-.dark-mode :not(pre) > code {
+.dark-mode :not(pre):not(.emgithub-container > div) > code {
     background-color: var(--dark-mode-darker-bg-color);
 }
 
