@@ -39,6 +39,11 @@
     line-height: 1.2;
 }
 
+.container.post-header .post-title {
+  font-size: 2rem;
+  margin-bottom: 0;
+}
+
 .post-title-link:hover {
     color: var(--primary-color);
 }
