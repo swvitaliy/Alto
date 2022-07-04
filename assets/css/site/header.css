@@ -72,6 +72,7 @@
     font-weight: 500;
     transition: opacity 0.3s var(--animation-base);
     backface-visibility: hidden;
+    letter-spacing: -.5px;
 }
 
 .menu-item-link {
