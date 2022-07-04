@@ -111,13 +111,15 @@ figcaption {
 
 pre {
     overflow-x: scroll;
-    padding: 16px 22px;
     line-height: 1.5;
     white-space: pre;
     hyphens: none;
-    background-color: var(--light-gray-color);
+    /*background-color: var(--light-gray-color);*/
     border-radius: 5px;
     -webkit-overflow-scrolling: touch;
+    padding: 1rem;
+    border-radius: 0.3rem;
+    border: 1px solid rgb(221, 221, 221);
 }
 
 code {
