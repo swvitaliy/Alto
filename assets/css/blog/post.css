@@ -184,6 +184,7 @@
 .post-excerpt {
     margin-top: .8rem;
     line-height: 1.6;
+    font-size: 15px;
 }
 
 @media (max-width: 767px) {
