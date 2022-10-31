@@ -31,8 +31,8 @@ html {
 body {
     color: var(--primary-text-color);
     font-family: Muli, sans-serif;
-    font-size: 14px;
-    line-height: 1.65;
+    font-size: 15px;
+    line-height: 1.6;
     text-rendering: optimizeLegibility;
     word-break: break-word;
     background-color: var(--white-color);
