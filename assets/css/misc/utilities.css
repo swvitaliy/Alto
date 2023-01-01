@@ -164,7 +164,7 @@
 .u-text-format ul li::before {
     content: "•";
     top: 11px;
-    left: -18px;
+/*     left: -18px; */
     width: 6px;
     height: 6px;
     border-radius: 50%;
